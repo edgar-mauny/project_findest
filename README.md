@@ -39,7 +39,9 @@ set PATH="path-to-apache-maven-3.9.6/bin:$PATH"
 Maven is available in the GitHub repository.
 
 ### Launching the Application with Maven
-In the servapp directory, use the following command to run the application with Maven:
+In the findest directory, use the following command to run the application with Maven:
 
+cd findest
 mvn spring-boot:run
+
 The application should now be accessible at http://localhost:8080.
