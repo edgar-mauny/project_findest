@@ -26,13 +26,13 @@ Navigate to the servapp directory and run the following commands to build the Do
 cd servapp
 docker-compose build
 
-###Launching Docker Containers
+### Launching Docker Containers
 Once the containers are built, start them with the command:
 
 docker-compose up
 
 
-## Running the Application Locally (Optional)
+## Running the Application Locally
 ### Maven Configuration
 Ensure that Maven is added to your PATH:
 
