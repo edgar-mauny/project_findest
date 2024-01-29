@@ -23,8 +23,7 @@ cd servapp
 ### Building Docker Containers
 Navigate to the servapp directory and run the following commands to build the Docker containers:
 
-cd servapp
-docker-compose build
+docker compose build
 
 ### Launching Docker Containers
 Once the containers are built, start them with the command:
@@ -36,7 +35,7 @@ docker-compose up
 ### Maven Configuration
 Ensure that Maven is added to your PATH:
 
-export PATH="path-to-apache-maven-3.9.6/bin:$PATH"
+set PATH="path-to-apache-maven-3.9.6/bin:$PATH"
 Maven is available in the GitHub repository.
 
 ### Launching the Application with Maven
